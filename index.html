@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+        <script type="text/javascript" src="imgURL.json"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="mainBlock">
+            <div id="timer"> 
+                <p>TIME<br>
+                <span id="time">0</span></p>
+            </div>
+            
+            <div id="scoreBlock"> 
+                <p>SCORE<br>
+                <span id="score">0</span></p>
+            </div>
+            
+            <table id="main_table"></table>
+        </div>
+        
+        <div id="finalBlock" class="hide">
+            Victory!<br>
+            
+            <p>Score:<br>
+            <span id="finalScore"></span><br>
+            <span class="hide" id="highscore">NEW HIGHSCORE!</span></p>
+            
+            <p>Time:<br>
+            <span id="finalTime"></span> sec</p>
+            
+            <a href="index.html" id="tryAgain">Try again</a>
+        </div>
+    </body>
+</html>
