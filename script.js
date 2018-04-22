@@ -92,7 +92,7 @@ function createMap(paramArr) {
 function choose(td, map, h, w) {
     if (td.classList.contains("comp")) return;
     
-    selList = document.getElementsByClassName('sel'); //Список выбраных полей
+    selList = document.getElementsByClassName('sel'); //Список выбранных полей
     
     var td1, td2, x1, y1, x2, y2;
     var curScore, curTime, scoreElem;
