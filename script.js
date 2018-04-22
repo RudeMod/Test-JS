@@ -25,7 +25,7 @@ window.onload = function() {
 /**
  * Функция генерации игрового поля
  *
- * @param {String} paramArr распарсеный массив полученый с get_field_size.php
+ * @param {Array} paramArr распарсеный массив полученый с get_field_size.php
  */
 function createMap(paramArr) {
     var h = paramArr["height"];
