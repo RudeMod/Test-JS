@@ -1,5 +1,6 @@
 # Test-JS
 Приложение выполнено без использования JQuery, Bootstrap, Angular, пр. на нативном Javascript.
+Demo: https://rudemod.github.io/Test-JS/
 
 ### Файлы:
 
